@@ -1,4 +1,4 @@
-package Server;
+package server;
 
 import controller.FtpController;
 import org.apache.logging.log4j.LogManager;
