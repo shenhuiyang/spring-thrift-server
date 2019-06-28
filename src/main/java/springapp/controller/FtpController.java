@@ -1,17 +1,17 @@
-package controller;
+package springapp.controller;
 
 import org.apache.logging.log4j.LogManager;
-import org.springframework.stereotype.Controller;
+import org.springframework.stereotype.Component;
 import thriftpath.thrift.CatMode;
 import thriftpath.thrift.FTPServer;
 import thriftpath.thrift.FileStruct;
 
 import java.nio.ByteBuffer;
 import java.util.List;
-import org.apache.logging.log4j.LogManager;
+
 import org.apache.logging.log4j.Logger;
 
-@Controller
+@Component
 public class FtpController implements FTPServer.Iface {
     protected final Logger logger = LogManager.getLogger(FtpController.class.getName());
 
@@ -22,7 +22,7 @@ public class FtpController implements FTPServer.Iface {
 
     @Override
     public String cat(FileStruct file, CatMode mode) throws org.apache.thrift.TException {
-        return null;
+        return "cat func";
     }
 
     @Override
