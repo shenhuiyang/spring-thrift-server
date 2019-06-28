@@ -1,4 +1,4 @@
 thrift-server:
-  port:8098
+  port: 8098
   minWorkerTheads: 2
   maxWorkerTheads: 3
