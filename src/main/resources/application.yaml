@@ -2,3 +2,7 @@ thrift-server:
   port: 8098
   minWorkerTheads: 2
   maxWorkerTheads: 3
+
+thrift-client:
+  host: "127.0.0.1"
+  port: 8098

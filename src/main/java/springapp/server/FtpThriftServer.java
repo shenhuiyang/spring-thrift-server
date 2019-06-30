@@ -55,8 +55,6 @@ public class FtpThriftServer {
     private TBinaryProtocol.Factory protocolFactory;
     private TTransportFactory transportFactory;
 
-
-
     public void init() {
         protocolFactory = new TBinaryProtocol.Factory();
         transportFactory = new TTransportFactory();
