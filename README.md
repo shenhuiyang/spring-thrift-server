@@ -1,8 +1,8 @@
-# spring-thriftpath.thrift-gs.server
-spring集成thrift-gs.server
+# spring-thrift
+spring集成thrift
 
 ## 生成thrift文件对应的java接口文件
-sh ./thriftpath.thrift-gen.sh
+sh ./thrift-gen.sh
 
 ## 编译运行
-mvn package && java -jar target/spring-thriftpath.thrift-app-0.1.0.jar
+mvn package && java -jar target/spring-thrift-app-0.1.0.jar
